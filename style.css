@@ -7,7 +7,7 @@ body {
 
 .cv-container {
   background-color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Times, serif;
   font-size: 13px;
   max-width: 800px;
   height: 100%;
@@ -145,6 +145,17 @@ a:visited {
   margin-bottom: 5px;
 }
 
+.job-title {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.job-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
 /* Education */
 .education-item h3 {
   margin: 0;
@@ -158,10 +169,14 @@ a:visited {
 }
 
 @media print {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
   .cv-container {
     box-shadow: none;
     max-width: none;
-    margin: 0;
   }
 
   .divider {
@@ -172,6 +187,7 @@ a:visited {
 
 @media (max-width: 600px) {
   .cv-container {
+    /* margin: 10px 0; */
     padding: 10px;
   }
 

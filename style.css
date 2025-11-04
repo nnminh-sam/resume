@@ -145,15 +145,60 @@ a:visited {
   margin-bottom: 5px;
 }
 
-.job-title {
-  text-transform: uppercase;
-  margin-bottom: 5px;
+/* Experience */
+.experience-item {
+  margin-bottom: 15px;
 }
 
-.job-details {
+.experience-header {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 5px;
+  font-weight: bolder !important;
+}
+
+.experience-header .job-title {
+  flex: 1 1 30%;
+}
+
+.experience-header .company {
+  flex: 1 1 35%;
+  text-align: center;
+}
+
+.experience-header .duration {
+  flex: 1 1 30%;
+  text-align: right;
+}
+
+.key-achievement ul {
   margin-top: 5px;
+  padding-left: 20px;
+}
+
+.key-achievement li {
+  font-size: 13px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+
+/* Optional tweak for smaller screens */
+@media (max-width: 600px) {
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+  }
+
+  .experience-header .company,
+  .experience-header .duration {
+    text-align: left;
+  }
 }
 
 /* Education */

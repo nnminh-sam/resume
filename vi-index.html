@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nguyen Nhat Minh Resume</title>
+    <link rel="stylesheet" href="vi-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="resume-container">
+      <div class="left-col">
+        <div class="header">
+          <h1>Nguyen<br />Nhat Minh</h1>
+          <h2>Backend Developer</h2>
+
+          <div class="contact-info">
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:nnminh.sam@gmail.com">nnminh.sam@gmail.com</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+              Ho Chi Minh City, Vietnam
+            </div>
+            <div>
+              <i class="fa-solid fa-phone"></i>
+              (+84) 070 409 8399
+            </div>
+            <div>
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/nnminh-sam">nnminh-sam</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/nnminh1803/"
+                >Nguyen Nhat Minh</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="education">
+          <h3 class="section-title-sidebar">Education</h3>
+
+          <div class="edu-block">
+            <div class="edu-degree">
+              <span class="degree">Bachelor of Software Engineering</span>
+            </div>
+            <div class="edu-school">
+              <span class="name">
+                Posts and Telecommunications Institute of Technology HCM Branch
+                (PTITHCM)
+              </span>
+            </div>
+            <div class="edu-date">
+              <i class="fa-regular fa-calendar"></i>
+              2021 - 2026
+            </div>
+            <div class="edu-date">GPA 3.37/4</div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <h3 class="section-title-sidebar">Skills</h3>
+          <ul class="skills-list">
+            <li>
+              <strong>Backend:</strong> NestJS, Node.js, TypeScript, JavaScript
+            </li>
+            <li><strong>Database:</strong> PostgreSQL, MongoDB, Redis</li>
+            <li><strong>DevOps & Tools:</strong> Docker, Git, Postman</li>
+            <li>
+              <strong>Others:</strong> Data Structures & Algorithms, OOP,
+              Problem Solving
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right-col">
+        <section class="work-experience">
+          <h3 class="section-title-main">Work Experience</h3>
+
+          <div class="job-block">
+            <div class="job-title">Part-time Backend Developer</div>
+            <div class="company-name">SpeedForce.AI (Remote)</div>
+            <div class="job-meta">
+              <span>📅 May 2025 - Now</span>
+            </div>
+            <ul class="content-ul">
+              <li>
+                Engineered the scalable backend architecture for an AI-powered
+                interview monitoring and fraud detection platform, enabling
+                real-time recording, candidate tracking, and performance
+                analysis.
+              </li>
+              <li>
+                Implemented modular backend services using NestJS and PostgreSQL
+                within an MVC architecture, applying RESTful design principles
+                for clean and scalable API development.
+              </li>
+              <li>
+                Developed a scalable meeting bot that autonomously joins online
+                meetings, records and processes real-time audio/video streams
+                with chunk-based audio handling, and supports deployment on
+                Google Cloud Run or as a local Docker service.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="projects">
+          <h3 class="section-title-main">Projects</h3>
+
+          <div class="project-block">
+            <div class="job-title">Violence video prediction</div>
+            <div class="company-name">Full-stack developer</div>
+            <div class="job-meta">
+              <a
+                href="https://github.com/nnminh-sam/violence-prediction-service"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+            <p class="project-description">
+              A web app that allows users to upload a video and get the violence
+              prediction result in the uploaded video. Provide API for external
+              applications.
+            </p>
+            <p class="project-tech">
+              <strong>Tech:</strong> Django, MobileNetV2, Docker
+            </p>
+            <ul class="content-ul">
+              <li>
+                Developed server side web application and REST API service for
+                violence prediction using Django framework.
+              </li>
+              <li>
+                Implemented video upload and prediction feature using
+                MobileNetV2 model.
+              </li>
+              <li>
+                Implemented Docker container for the application for deployment.
+              </li>
+              <li>
+                Implemented API keys generations using AES encryption for
+                external API requests.
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-block">
+            <div class="job-title">Messaging Application Backend</div>
+            <div class="company-name">Backend developer</div>
+            <div class="job-meta">
+              <a
+                href="https://github.com/nnminh-sam/violence-image-detection-in-messaging-app"
+              >
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+            <p class="project-description">
+              A backend API service for a messaging application, responsible for
+              user authentication, managing user relationships, facilitating
+              message exchange, and integrated external API service to detect
+              and filter violent video content.
+            </p>
+            <p class="project-tech">
+              <strong>Tech:</strong> Typescript, NestJS, MongoDB, Socket.io
+            </p>
+            <ul class="content-ul">
+              <li>
+                Implemented user authentication and authorization using JWT.
+              </li>
+              <li>
+                Developed user relationship features, including friend requests,
+                blocking and unfriending.
+              </li>
+              <li>
+                Developed send and receive messages feature in real-time using
+                Socket.io.
+              </li>
+              <li>
+                Integrated AI-powered video moderation to detect and filter
+                violent content.
+              </li>
+            </ul>
+          </div>
+
+          <div class="project-block">
+            <div class="job-title">Online Watch Shopping Store Backend</div>
+            <div class="company-name">Backend developer</div>
+            <div class="job-meta">
+              <a href="https://github.com/nnminh-sam/The-Watchers">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+            <p class="project-description">
+              A backend API service for an online watch shopping store which
+              includes user authentication, user cart management and user orders
+              management.
+            </p>
+            <p class="project-tech">
+              <strong>Tech:</strong> Java, Spring Boot, Postgres
+            </p>
+            <ul class="content-ul">
+              <li>
+                Implemented user authentication and authorization using JWT.
+              </li>
+              <li>
+                Developed user cart and user order management features: add,
+                update and remove items from cart, place order, view order
+                history.
+              </li>
+              <li>Implemented order confirmation email sending using SMTP.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

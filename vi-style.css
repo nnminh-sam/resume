@@ -1,0 +1,174 @@
+/* GENERAL RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* A4 PAGE CONTAINER */
+.resume-container {
+  width: 210mm; /* A4 Width */
+  min-height: 297mm; /* A4 Height */
+  background-color: white;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* --- LEFT COLUMN (SIDEBAR) --- */
+.left-col {
+  width: 32%;
+  background-color: #fa8072; /* Salmon Color */
+  color: white;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Typography for Left Column */
+.left-col h1 {
+  font-family: "Georgia", serif;
+  font-size: 28px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.left-col h2 {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 25px;
+  opacity: 0.9;
+}
+
+.contact-info div {
+  margin-bottom: 8px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-info a {
+  color: white;
+  text-decoration: underline;
+}
+
+.section-title-sidebar {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.edu-block {
+  margin-bottom: 15px;
+}
+
+.edu-degree {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.edu-school {
+  color: #ffe4e1; /* Lighter salmon/white */
+  font-weight: bold;
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.edu-date {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.skills-list {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+.skills-list li {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+/* --- RIGHT COLUMN (MAIN CONTENT) --- */
+.right-col {
+  width: 68%;
+  padding: 40px;
+  color: #333;
+}
+
+/* Typography for Right Column */
+.section-title-main {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.job-block,
+.project-block {
+  margin-bottom: 25px;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #444;
+}
+
+.company-name {
+  color: #fa8072; /* Matching Sidebar Color */
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.job-meta {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.content-ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.content-ul li {
+  font-size: 13px;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* Special formatting for the bold/underlined text in image */
+.highlight {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Icon placeholders */
+.icon {
+  width: 15px;
+  text-align: center;
+}

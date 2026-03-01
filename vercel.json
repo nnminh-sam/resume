@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "has": [
+        {
+          "type": "query",
+          "key": "lang",
+          "value": "vi"
+        }
+      ],
+      "dest": "/vi-index.html"
+    }
+  ]
+}
